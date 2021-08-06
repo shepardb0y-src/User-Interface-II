@@ -40,7 +40,7 @@ blockquote, q {
     /*style begins*/
 *{
     background-color:grey;
-    border: 2px solid black;
+
     padding: 0;
     margin: 0;
     max-width: 100%;
@@ -65,7 +65,6 @@ nav{
 }
 
 section.part1{
-background: url("https://i.picsum.photos/id/315/.jpg?hmac=cE5OEQSh9gvXqkP0fkrmaSbqLfc_KQdDPtH7yBbeuiQ");
 
 }
 section.part1 img{
@@ -78,7 +77,12 @@ section .part-content{
 }
 section .background-img{
     display: flex;
-    height: 33vh;
+    
+}
+section .background-img .background-imgs{
+border: black 5px solid;
+height: 33vh;
+background: cover;
 }
 
 footer.footers {
