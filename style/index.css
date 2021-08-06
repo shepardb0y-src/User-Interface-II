@@ -72,3 +72,16 @@ section.part1 img{
     width:100%;
     height:25vh;
 }
+
+section .part-content{
+    display: flex;
+}
+section .background-img{
+    display: flex;
+    height: 33vh;
+}
+
+footer.footers {
+display: flex;
+justify-content: center;
+}
