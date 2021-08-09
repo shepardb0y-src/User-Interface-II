@@ -39,7 +39,7 @@ blockquote, q {
 
     /*style begins*/
 *{
-    background-color:grey;
+   
     padding: 0;
     margin: 0;
     max-width: 100%;
@@ -73,11 +73,13 @@ section.part1 img{
 
 section .part-content{
     display: flex;
+    justify-content: space-evenly;
 }
-section .background-img{
-    display: flex;
-    
+
+section .part-content p{
+    width:10%;
 }
+
 section .background-img .background-imgs{
 border: black 5px solid;
 height: 33vh;
@@ -88,4 +90,8 @@ footer.footers {
 display: flex;
 justify-content: center;
 padding:0 20%;
+}
+
+button{
+    background-color:grey;
 }
